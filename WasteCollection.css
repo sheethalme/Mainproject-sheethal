@@ -1,0 +1,100 @@
+/* WasteDonationForm.css */
+
+/* Apply background image only to the specific page */
+.waste-donation-page {
+    background-image: url('pexels-towfiqu-barbhuiya-3440682-13048833.jpg'); /* Add your image path here */
+    background-size: cover; /* Ensure the image covers the entire page */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+    min-height: 100vh; /* Ensure the background covers the whole page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Wrapper for the form */
+.waste-donation-form-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(244, 244, 249, 0.596); /* Slight opacity for contrast */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: -50px;
+}
+
+/* Heading */
+.waste-donation-form-container h2 {
+    text-align: center;
+    color: #095a34;
+    font-family: 'Arial', sans-serif;
+    margin-top: 10px;
+}
+
+/* Form Styling */
+.waste-donation-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label Styling */
+.waste-donation-form-container label {
+    font-size: 18px;
+   margin-bottom: 4px;
+    margin-top: 4px;
+    color: #145f20;
+}
+
+/* Input Styling */
+.waste-donation-form-container input[type="text"],
+.waste-donation-form-container input[type="datetime-local"] {
+    padding: 8px;
+    margin-bottom: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 90%;
+}
+
+/* Focus on Input Fields */
+.waste-donation-form-container input[type="text"]:focus,
+.waste-donation-form-container input[type="datetime-local"]:focus {
+    border-color: #0d725085;
+    outline: none;
+}
+
+/* Button Styling */
+.waste-donation-form-container button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    border: none;
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+.waste-donation-form-container button:hover {
+    background-color: #218838;
+}
+
+.waste-donation-form-container button:focus {
+    outline: none;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .waste-donation-form-container {
+        padding: 15px;
+    }
+
+    .waste-donation-form-container h2 {
+        font-size: 24px;
+    }
+
+    .waste-donation-form-container button {
+        width: 100%;
+    }
+}

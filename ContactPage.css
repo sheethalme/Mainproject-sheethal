@@ -1,0 +1,40 @@
+.contact-page {
+  background-image: url('pexels-karolina-grabowska-7193659.jpg'); /* Add the path to your background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Ensure the background covers the entire viewport height */
+}
+
+.contact-page__appBar {
+  background-color: #3f51b5;
+}
+
+.contact-page__title {
+  flex-grow: 2;
+}
+
+.contact-page__navButton {
+  color: #fff;
+}
+
+.contact-page__container {
+  margin-top: 100px;
+  padding: 2rem;
+  background-color: rgba(249, 249, 249, 0.9); /* Add transparency to the background */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-page__header {
+  margin-bottom: 2rem;
+}
+
+.contact-page__item {
+  margin-bottom: 2rem;
+}
+
+.contact-page__icon {
+  margin-right: 10px;
+  color: #0f3316;
+}

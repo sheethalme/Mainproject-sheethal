@@ -1,0 +1,75 @@
+/* AdminContactPage.css */
+
+/* General page styling */
+.admin-contact-page {
+    padding: 200px;
+    font-family: 'Roboto', sans-serif; /* Use a modern font */
+    max-width: 800px;
+    margin: 0 auto;
+    
+    border-radius: 10px;
+
+    margin: 100px;
+    margin-top: 30px;
+    margin-left: 150px;
+  }
+  
+  .admin-contact-page h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  /* Table styling */
+  .admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #2b9e3e85;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .admin-table th,
+  .admin-table td {
+    padding: 15px;
+    border: 1px solid #dddddd25;
+    text-align: left;
+  }
+  
+  .admin-table th {
+    background-color: #4CAF50;
+    color: rgba(255, 255, 255, 0.795);
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+  
+  .admin-table tr:nth-child(even) {
+    background-color: #f2f2f200;
+  }
+  
+  /* Call button styling */
+  .admin-call-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: rgba(255, 255, 255, 0.881);
+    text-decoration: none;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .admin-call-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Error message styling */
+  .admin-error {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  

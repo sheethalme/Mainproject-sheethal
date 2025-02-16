@@ -1,0 +1,146 @@
+/* Admin-dashboard.css */
+
+/* Container */
+.admin-dashboard-page { 
+ /* // background: url('pexels-minan1398-1131462.jpg') no-repeat center center/cover; */
+   /* Add your background image here and prevent it from repeating */
+   background-size: cover; /* Ensure the image covers the entire background */ 
+   min-height: 100vh;
+}
+
+.admin-dashboard-page .container {
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+  width: 100%;
+  margin: 0;
+}
+
+/* Navbar */
+.admin-dashboard-page .navbar {
+  background-color: #ae9393;
+  color: rgba(255, 255, 255, 0.708);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1.2rem; /* Increased font size */
+}
+
+/* Nav Links */
+.admin-dashboard-page .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.admin-dashboard-page .nav-links li a {
+  color: rgba(255, 255, 255, 0.872);
+  text-decoration: none;
+  font-size: 1.2rem; /* Increased font size */
+}
+
+.admin-dashboard-page .nav-links li a:hover {
+  text-decoration: underline;
+}
+
+/* Content (Sidebar + Main Content) */
+.admin-dashboard-page .content {
+  display: flex;
+  flex-grow: 5;
+  width: 200%;
+  background-color: #f8f9fa00;
+}
+
+/* Sidebar */
+.admin-dashboard-page .sidebar {
+  background-color: #3333334d;
+  color: rgba(255, 255, 255, 0.676);
+  width: 200px;
+  padding: 1rem;
+  height: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.5rem; 
+  margin-top: 100px;/* Increased font size */
+}
+
+/* Sidebar Links */
+.admin-dashboard-page .sidebar ul {
+  list-style: none;
+  padding: 5;
+}
+
+.admin-dashboard-page .sidebar ul li {
+  padding: 1.5rem 0;
+}
+
+.admin-dashboard-page .sidebar ul li:hover {
+  background-color: #55555576;
+  cursor: pointer;
+}
+
+.admin-dashboard-page .sidebar ul li a {
+  color: rgba(255, 255, 255, 0.918);
+  text-decoration: none !important; /* Remove underline from sidebar links */
+  font-size: 1.5rem; /* Increased font size */
+}
+
+.admin-dashboard-page .sidebar ul li a:hover {
+  text-decoration: underline; /* Optional: Adds underline on hover */
+}
+
+/* Main Content */
+.admin-dashboard-page .main {
+  flex-grow: 100;
+  margin-left: 1080px;
+  padding: 2rem;
+  background-color: #ffffff00;
+  border: 1px solid #dddddd00;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0);
+  overflow: visible;
+  text-align: center;
+  box-sizing: content-box;
+  font-size: 1.2rem; /* Increased font size */
+}
+
+.admin-dashboard-page .main h2 {
+  margin-top: 10;
+  margin-left: 500;
+  text-align: center;
+  align-items: 20;
+}
+
+.admin-dashboard-page .main { 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 50vh; 
+  text-align: center;
+  margin-left: 1000;
+  font-size: 1.2rem; /* Increased font size */
+}
+
+.video-section {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}

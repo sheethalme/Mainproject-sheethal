@@ -1,0 +1,40 @@
+/* Navigation.css */
+
+.user-navbar {
+  background: linear-gradient(to right, #063b4a, #067e52);
+  color: #ffffff;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: 30px;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 200px;
+  margin: 0;
+  padding: 0;
+}
+
+.user-navbar ul li {
+  display: inline;
+}
+
+.user-navbar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  display: block;
+  text-align: center;
+  font-weight: 600;
+}
+
+.user-navbar ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  color: #80cbc4;
+}

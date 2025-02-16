@@ -1,0 +1,129 @@
+/* ForgetPassword.css */
+/* ForgotPass.css */
+
+.forgetPasswordPage {
+    margin: 0;
+    /* font-family: 'Inter', sans-serif; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 100vh;
+    background-image: url("pexels-alena-koval-233944-886521.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+.forgetPasswordTitle {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2d3748;
+    text-align: center;
+}
+
+.forgetPasswordSubtitle {
+    font-size: 1rem;
+    color: #4a5568;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.forgetPasswordFormContainer {
+    background: #ffffff;
+    padding: 24px;
+    width: 500px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.forgetPasswordLabel {
+    font-size: 0.875rem;
+    color: #2d3748;
+    display: block;
+    font-weight: 600;
+}
+
+.forgetPasswordInput {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-top: 10px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.forgetPasswordInput:focus {
+    border-color: #a2d5c6;
+    box-shadow: 0 0 0 3px rgba(162, 213, 198, 0.4);
+}
+
+.forgetPasswordSubmitButton {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    color: #ffffff;
+    background: linear-gradient(90deg, #48bb78, #38a169);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.forgetPasswordSubmitButton:hover {
+    background: linear-gradient(90deg, #38a169, #2f855a);
+    transform: translateY(-2px);
+}
+
+.forgetPasswordSubmitButton:disabled {
+    background: #cbd5e0;
+    cursor: not-allowed;
+}
+
+.forgetPasswordMessage {
+    padding: 12px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.forgetPasswordSuccessMessage {
+    background-color: #f0fff4;
+    color: #38a169;
+    border: 1px solid #c6f6d5;
+}
+
+.forgetPasswordErrorMessage {
+    background-color: #fff5f5;
+    color: #e53e3e;
+    border: 1px solid #fed7d7;
+}
+
+.forgetPasswordDivider {
+    height: 1px;
+    background: #e2e8f0;
+}
+
+.forgetPasswordBackToSignIn {
+    font-size: 0.9rem;
+    color: #4a5568;
+}
+
+.forgetPasswordBackToSignInLink {
+    color: #38a169;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.forgetPasswordBackToSignInLink:hover {
+    color: #2f855a;
+}

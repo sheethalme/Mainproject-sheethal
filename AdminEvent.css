@@ -1,0 +1,54 @@
+/* AdminEventLoading.css */
+
+.admin-event-loading {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    margin-top: 150px;
+}
+
+.admin-event-loading h1 {
+    text-align: center;
+    color: #333;
+}
+
+.admin-event-loading form {
+    display: flex;
+    flex-direction: column;
+    width:550px;
+}
+
+.admin-event-loading input[type="text"],
+.admin-event-loading input[type="date"],
+.admin-event-loading textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+.admin-event-loading textarea {
+    resize: vertical;
+}
+
+.admin-event-loading button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    width: 105%;
+}
+
+.admin-event-loading button:hover {
+    background-color: #45a049;
+
+}

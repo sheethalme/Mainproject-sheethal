@@ -1,0 +1,77 @@
+/* Specific styles for EventList page */
+/* Custom Container for Admin Event Page */
+.admin-event-page { 
+    background: url('pexels-alphafotografie-2024-2148534788-30156809.jpg') no-repeat center center fixed; 
+    background-size: cover; 
+    min-height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+.event-list-container {
+    max-width: 1000px ;
+    margin: 20px auto;
+    padding: 50px;
+    background-color: #ffffff6c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    height: 500px; /* Set the height of the container */
+    overflow-y: auto; 
+    margin-top:-100px;/* Enable vertical scrolling */
+}
+
+.event-list-container h1 {
+    font-size: 32px;
+    color: #175c1a;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.event-list-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.event-list-container li {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-list-container li h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.event-list-container li p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.event-list-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.event-list-container button:hover {
+    background-color: #45a049;
+}
+/* Additional CSS for the new sentence */
+.event-note {
+    font-size: 18px;
+    color: #0a350b;
+    text-align: center;
+    margin-top: 20px;
+}
+

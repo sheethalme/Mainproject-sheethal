@@ -1,0 +1,151 @@
+/* Profile.css */
+
+.profile-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure the full height is used */
+  padding: 30px;
+  background: url('pexels-ron-lach-7944396.jpg') no-repeat center center/cover; /* Add your background image here, and prevent it from repeating */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20; /* Removed negative margin */
+}
+
+.profile-container {
+  background-color: #ffffff8c;
+  padding: 40px; /* Reduced padding */
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px; /* Reduced max-width */
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin: 10; /* Adjusted margin to remove negative value */
+}
+
+.profile-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.profile-container h1 {
+  color: #333;
+  margin-bottom: 15px; /* Adjusted margin */
+}
+
+.profile-details p {
+  margin: 10px 0;
+  color: #120b0b;
+}
+
+.profile-details strong {
+  color: #333;
+}
+
+/* .profile-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px; 
+  position: relative;
+}
+
+.profile-picture img {
+  width: 100px; 
+  height: 100px; 
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #0d5846;
+}
+
+.profile-picture .upload-placeholder {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #054f3c;
+  color: #097134;
+}
+
+.profile-picture input[type="file"] {
+  display: none;
+} */
+
+/* .upload-btn {
+  position: absolute;
+  bottom: 0;
+  background-color: #0a6143;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+} */
+
+.upload-btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px);
+}
+
+.form-row {
+  margin-bottom: 15px; /* Adjusted margin */
+}
+
+form label {
+  display: block;
+  margin: 5px 0;
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  padding: 5px; /* Adjusted padding */
+  margin-top: 5px; /* Adjusted margin */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+  margin: -10px;
+}
+
+form input[type="text"]:focus,
+form input[type="number"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+  border-color: #007bff;
+}
+
+button {
+  padding: 8px 20px; /* Adjusted padding */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button[type="submit"] {
+  background-color: #28a745;
+  color: #fff;
+}
+
+button[type="button"] {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+button:hover {
+  transform: translateY(-3px);
+}
+
+button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+button[type="button"]:hover {
+  background-color: #c82333;
+}

@@ -1,0 +1,118 @@
+/* Admin Panel Styles */
+.admin-panel {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Light blue for admin background */
+    color: #333;
+    padding: 20px;
+    margin: 0;
+}
+
+.admin-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+.admin-header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #0b5322;
+}
+
+.admin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.admin-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.admin-form button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.admin-form button:hover {
+    background-color: #218838;
+}
+
+.admin-toggle-button {
+    margin: 10px auto;
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.admin-toggle-button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .admin-container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .admin-form input {
+        font-size: 14px;
+    }
+
+    .admin-form button, .admin-toggle-button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+}
+
+/* New Modern Support for High Contrast */
+@media (forced-colors: active) {
+    body {
+        background-color: Canvas;
+        color: CanvasText;
+    }
+
+    .admin-container {
+        background-color: Canvas;
+        color: CanvasText;
+        border-color: GrayText;
+    }
+
+    .admin-form input {
+        background-color: Canvas;
+        border-color: GrayText;
+    }
+
+    .admin-form button, .admin-toggle-button {
+        background-color: ButtonFace;
+        color: ButtonText;
+    }
+
+    .admin-form button:hover, .admin-toggle-button:hover {
+        background-color: Highlight;
+        color: HighlightText;
+    }
+}

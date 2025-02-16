@@ -1,0 +1,127 @@
+/* Ensure the body spans the full viewport and supports scrolling */
+.values-background {
+    background-image: url('pexels-minan1398-1353938.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: fixed; /* Fix the background to cover the entire viewport */
+    z-index: -1; /* Ensure the background is behind other content */
+    overflow-x: hidden; /* Disable horizontal scrolling */
+  }
+  
+  /* Navbar styling */
+  .anakkara-navbar {
+    background-color: #0a4b47;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(11, 65, 57, 0.555);
+    position: relative;
+    z-index: 1; /* Ensure the navbar is above the background */
+  }
+    
+  .navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the navbar items */
+  }
+    
+  .navbar-item {
+    margin: 0 50px; /* Spacing between navbar items */
+  }
+    
+  .navbar-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+  }
+    
+  .navbar-item a:hover {
+    background-color: #ddd;
+    color: #333;
+  }
+    
+  /* Optional: Active link styling */
+  .navbar-item a.active {
+    background-color: #444;
+    color: #fff;
+  }
+    
+  /* Container styles */
+  .values-container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    position: relative;
+    z-index: 1; /* Ensure content is above the background */
+    background-color: rgba(255, 255, 255, 0.8); /* Add some transparency to the background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Content section styles */
+  .values-content {
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8); /* Add some transparency to the background */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px 0;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Typography styling */
+  .values-h1, h2 {
+    color: #0a4b47; /* Match the color with the navbar */
+    margin: 0.5rem 0;
+  }
+  
+  .values-h1 {
+    font-size: 1rem;
+  }
+  
+  .values-h2 {
+    font-size: 1rem;
+  }
+  
+  /* List styles */
+  .values-ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .values-li {
+    padding: 10px 0;
+    font-size: 2rem;
+    text-align: center; /* Center-align list items */
+}
+  
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .navbar-item {
+      margin: 0 20px; /* Reduce spacing on smaller screens */
+    }
+  
+    .values-container {
+      max-width: 90%;
+    }
+  
+    .values-h1 {
+      font-size: 1.5rem;
+    }
+  
+    .values-h2 {
+      font-size: 1rem;
+    }
+  }
+  

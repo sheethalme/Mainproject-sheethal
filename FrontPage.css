@@ -1,0 +1,272 @@
+.front-page-body {
+  height: 100%;
+  margin: 0;
+  overflow-x: auto;
+
+    cursor: url('bird 3.png'), auto;
+  
+  ; 
+  
+}
+
+.front-page-body .front-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 90vh;
+  background: linear-gradient(120deg, #4caf4fbe, #2e7d32d4);
+  background-image: url('3.png');
+  background-size: 900px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  /* color: #f3f7f59e; */
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  margin-top: -20px;
+  opacity: 1.1;
+  color: rgba(226, 235, 226, 0.963);
+}
+
+.front-page-body .front-page-overlay {
+  width: 100%;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.053);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Ensure content stacks properly */
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+.front-page-body .front-page-header h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.front-page-body .front-page-header p {
+  font-size: 1.4rem;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+.front-page-body .front-page-main-content {
+  margin-top: 50px;
+}
+
+.front-page-body .front-page-login-button {
+  background-color: #241e0af6;
+  color: #e0d2d2e7;
+  font-size: 1.4rem;
+  padding: 10px 32px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 165px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.front-page-body .front-page-login-button:hover {
+  background-color: #096421bf;
+  transform: scale(1.05);
+}
+
+.front-page-body .front-page-footer {
+  font-size: 1rem;
+  opacity: 0.8;
+  text-align: center;
+  color: rgba(10, 90, 10, 0.774);
+}
+
+.front-page-body .content-section {
+  width: 100%;
+  padding: 50px 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.418);
+  color: #333333fe;
+  margin-top: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative; /* Ensure sections are placed relative to each other */
+}
+.front-page-body .content-one {
+  width: 100%;
+  padding: 50px 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.418);
+  color: #333333fe;
+  font-size: 20px;
+  margin-top: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative; /* Ensure sections are placed relative to each other */
+}
+
+.front-page-body .content-section:nth-child(even) {
+  background-color: rgba(240, 240, 240, 0.9);
+}
+
+.front-page-body .content-image1 {
+  width: 100%;
+  padding: 200px 30px;
+  background-image: url('pexels-thajudeen-aboobaker-320380410-13682408.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 900px;
+  position: relative;
+  margin-top: 50px;
+}
+
+.front-page-body .content-image2 {
+  width: 100%;
+  padding: 200px 30px;
+  background-image: url('pexels-robinerino-2975498.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 900px;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.front-page-body .content-image3 {
+  width: 100%;
+  padding: 200px 30px;
+  background-image: url('pexels-thirdman-7656134.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 900px;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.front-page-body .content-image4 {
+  width: 100%;
+  padding: 200px 30px;
+  background-image: url('image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 500px;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.front-page-body .content-image6 {
+  width: 200%;
+  padding: 200px 50px;
+  background-image: url('pexels-greta-hoffman-7728347.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 900px;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.front-page-body .content-image7 {
+  width: 200%;
+  padding: 200px 50px;
+  background-image: url('pexels-ron-lach-9543414 (1).jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 900px;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.front-page-body .content-image5 {
+  width: 100%;
+  padding: 100px 20px;
+  /* background-image: url('greenworms pic1.png'); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 500px;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+  .front-page-body .content-image5{
+  font-size: 15px;
+  color: #1a1717;
+  margin-top: 100px;
+}
+/* .front-page-body .just{
+  font-size: 15px;
+  color: #1a1717;
+  margin-top: 100px;
+} */
+
+.front-page-body .content-sections {
+  width: 100%;
+  padding: 100px 20px;
+  background-color: rgba(8, 74, 8, 0.836);
+  text-align: center;
+  color: #0c0707fe;
+  margin-top: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative; /* Ensure sections are placed relative to each other */
+}
+
+.front-page-body .social-icons {
+  margin-top: 20px;
+}
+
+.front-page-body .social-icons svg {
+  color: #1a1717;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.front-page-body .social-icons svg:hover {
+  color: #ff6347;
+}
+.front-page .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.front-page .navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  text-align: center;
+}
+
+.front-page .navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* @keyframes birdFlyAway {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-200%, -200%) scale(0.5);
+    opacity: 0;
+  }
+}
+
+.bird {
+  position: fixed;
+  top: 70%; 
+  left: 80%; 
+  transform: translate(0, 0);
+  width: 100px; 
+  height: 100px; 
+  background-image: url('bird 3.png'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 1; 
+  animation: birdFlyAway 3s ease-in-out forwards;
+  animation-delay: 0s; 
+  font-size: 50px; 
+  color: #cfc7c7;
+} */

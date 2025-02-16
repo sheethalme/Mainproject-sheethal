@@ -1,0 +1,68 @@
+/* ViewComplients.css */
+
+/* Ensure the body and html are 100% in height */
+body.view-complaints-page, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;  /* Full height */
+    overflow: auto;  /* Hide overflow globally */
+  }
+  
+  .view-complaints-page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: auto; /* Allow scrolling for the entire page */
+  }
+  
+  /* Content area, flex so it expands based on available space */
+  .view-complaints-page .view-complaints {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  .view-complaints-page .content {
+    padding: 20px;
+  }
+  
+  .view-complaints-page .main {
+    overflow: auto;
+  }
+  
+  .view-complaints-page .complaints-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .view-complaints-page .complaints-table th, .view-complaints-page .complaints-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .view-complaints-page .complaint-image {
+    cursor: pointer;
+    max-width: 100px;
+    max-height: 100px;
+    transition: transform 0.3s ease;
+  }
+  
+  .view-complaints-page .scrollable-section {
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 2px solid #ccc;
+    flex-grow: 1; /* Allow this section to take up remaining space */
+    overflow-y: auto;
+  }
+  
+  .view-complaints-page .image-viewer {
+    text-align: center;
+  }
+  
+  .view-complaints-page .enlarged-image {
+    max-width: 90%;
+    max-height: 500px;
+    border: 2px solid #333;
+    margin-bottom: 20px;
+  }
+  

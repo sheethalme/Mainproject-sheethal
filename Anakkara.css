@@ -1,0 +1,361 @@
+  /* Ensure the body spans the full viewport and supports scrolling */
+  .google-map-body {
+    min-height: 150vh; /* Ensure the body takes up the full height of the viewport */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+    background-color: #f9f9f9; /* Set a consistent background color */
+    overflow-x: hidden; /* Disable horizontal scrolling */
+  }
+
+  /* Navbar styling */
+  .anakkara-navbar {
+    background-color: #0a4b47;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(11, 65, 57, 0.555);
+  }
+
+  .navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the navbar items */
+  }
+
+  .navbar-item {
+    margin: 0 50px; /* Spacing between navbar items */
+  }
+
+  .navbar-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+  }
+
+  .navbar-item a:hover {
+    background-color: #ddd;
+    color: #333;
+  }
+
+  /* Optional: Active link styling */
+  .navbar-item a.active {
+    background-color: #444;
+    color: #fff;
+  }
+
+  /* Adjust the Google Map container for better responsiveness */
+  .google-map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+    height: 600px; /* Set a fixed height for the map container */
+  }
+
+  /* Ensure the iframe is responsive */
+  .google-map-iframe {
+    width: 100%;
+    height: 100%; /* Adjust iframe to fill the container */
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Content section for detailed content */
+  /* Content section for detailed content */
+  .google-map-content {
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px 0;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 1.6; /* Improved readability */
+    color: #333; /* Text color */
+    background-image: url('pexels-jessbaileydesign-934011.jpg'); /* Add this line to set the background image */
+    background-size: cover; /* Adjust the background image size to cover the entire content section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Ensure the background image does not repeat */
+  }
+
+  .google-map-content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #0a4b47; /* Match the color with the navbar */
+    text-align: center;
+  }
+
+  .google-map-content p {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .google-map-content ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+
+  .google-map-content ul li {
+    padding: 5px 0;
+    text-align: center;
+    position: relative;
+  }
+
+  .google-map-content ul li::before {
+    content: "#";
+    position: center;
+    left: -20px;
+    color: #0a4b47; /* Use the navbar color */
+    font-weight: bold;
+  }
+
+  .google-map-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  .google-map-content table th, .google-map-content table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .google-map-content table th {
+    background-color: #0a4b47;
+    color: white;
+  }
+
+  .google-map-content table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  /* Section for image content */
+  .anakkara-content-image4 {
+    width: 100%;
+    padding: 150px 30px;
+    background-image: url('pexels-kqpho-1583582.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center; /* Center the text horizontally */
+    color: white; /* Set the text color */
+    font-size: 36px; /* Set the font size */
+  }
+
+
+
+
+  /* Styling for additional images section */
+  .anakkara-images {
+    display: flex;
+    flex-wrap: wrap; /* Allow images to wrap to the next line */
+    justify-content: center; /* Center images horizontally */
+    padding: 20px;
+  }
+
+  .anakkara-images img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Adding specific images via CSS */
+  .image1 {
+    background-image: url('WhatsApp Image 2025-01-30 at 09.19.11_28bcc26c.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .image2 {
+    background-image: url('WhatsApp Image 2025-01-30 at 09.19.12_61c40df7.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .image3 {
+    background-image: url('WhatsApp Image 2025-01-14 at 09.33.07_923a3cba.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .image4 {
+    background-image: url('anakkara5.webp');
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .image5 {
+    background-image: url('t-11.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .image6 {
+    background-image: url('anakkara-7.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .image7 {
+    background-image: url('anakkara-1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .image8 {
+    background-image: url('anakkara8.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .image9 {
+    background-image: url('t-10.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .image11 {
+    background-image: url('t-1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .image12 {
+    background-image: url('t-2.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image13 {
+    background-image: url('t-3.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .image14 {
+    background-image: url('t-4.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .image15 {
+    background-image: url('t-5.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .image16 {
+    background-image: url('t-6.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .image17 {
+    background-image: url('t-7.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .image18 {
+    background-image: url('t-8.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .image19 {
+    background-image: url('t-9.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }

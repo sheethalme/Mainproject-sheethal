@@ -1,0 +1,175 @@
+/* Register.css */
+
+/* Styles for the registration-page */
+.registration-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+  position: relative;
+  overflow: hidden;
+}
+
+/* Styles for the video background */
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Wrapper styles */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Form-box styles */
+.registration-page .form-box {
+  background: rgba(255, 255, 255, 0.404); /* Slightly transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px; /* Max width to make the form narrower */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.registration-page .login,
+.registration-page .register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Input-box styles */
+.registration-page .input-box {
+  margin-bottom: 15px;
+  width: 100%;
+  margin-top: 10px;
+  
+}
+
+.registration-page .input-box input,
+.registration-page .select-box select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+/* Select-box styles */
+.registration-page .select-box {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+/* Remember-forget styles */
+.registration-page .remember-forget {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.registration-page .remember-forget label {
+  display: flex;
+  align-items: center;
+}
+
+.registration-page .remember-forget a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* Button styles */
+.registration-page button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.registration-page button:hover {
+  background: #0056b3;
+}
+
+/* Register-link styles */
+.registration-page .register-link {
+  margin-top: 15px;
+}
+
+.registration-page .register-link p {
+  margin: 0;
+}
+
+.registration-page .link-button {
+  background: none;
+  border: none;
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.registration-page .link-button:hover {
+  color: #0056b3;
+}
+
+/* Error and success message styles */
+.registration-page .error {
+  color: red;
+}
+
+.registration-page .success {
+  color: green;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar h1 {
+  color: white;
+  margin: 0;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin-left: 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}

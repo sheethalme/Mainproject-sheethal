@@ -1,0 +1,154 @@
+
+/* User Dashboard Styles */
+.user-dashboard {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f959; /* Neutral background for users */
+    background-image: url('pexels-iriser-1420009.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #494242;
+    padding: 20px;
+    margin: 0;
+}
+
+.user-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 30px auto;
+    margin-top: 60px;
+    padding: 20px;
+    background-color: #ffffff4e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #06182c;
+}
+
+.user-list {
+    list-style-type: none;
+    padding: 0;
+    max-height: 500px; /* Adjust this value as needed */
+    overflow-y: auto;  /* Enable vertical scrolling */
+}
+
+/* Optional: Style the scrollbar for better visibility */
+.user-list::-webkit-scrollbar {
+    width: 8px;
+}
+
+.user-list::-webkit-scrollbar-thumb {
+    background-color: #888888;
+    border-radius: 5px;
+}
+
+.user-list::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.user-item {
+    border: 1px solid #dddddd76;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #fdfdfd6c;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-item h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.user-item p {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #084920;
+}
+
+.user-item video {
+    width: 200px;
+    max-width: 700px;
+    height: 500%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto; /* Centers the video horizontally */
+}
+
+.user-toggle-button {
+    margin: 10px auto;
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user-toggle-button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .user-container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .user-item h3 {
+        font-size: 18px;
+    }
+
+    .user-item p {
+        font-size: 12px;
+    }
+
+    .user-item video {
+        max-width: 100%;
+    }
+
+    .user-toggle-button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+}
+
+/* New Modern Support for High Contrast */
+@media (forced-colors: active) {
+    body {
+        background-color: Canvas;
+        color: CanvasText;
+    }
+
+    .user-container {
+        background-color: Canvas;
+        color: CanvasText;
+        border-color: GrayText;
+    }
+
+    .user-item {
+        background-color: Canvas;
+        border-color: GrayText;
+    }
+
+    .user-toggle-button {
+        background-color: ButtonFace;
+        color: ButtonText;
+    }
+
+    .user-toggle-button:hover {
+        background-color: Highlight;
+        color: HighlightText;
+    }
+}
